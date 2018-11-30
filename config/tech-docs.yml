@@ -3,16 +3,16 @@ host: mystifying-brahmagupta-dbd888.netlify.com
 
 # Header-related options
 show_govuk_logo: true
-service_name: My First Service
-service_link: https://www.larry-the-cat.service.gov.uk
+service_name: Architecture as a Service
+service_link: https://mystifying-brahmagupta-dbd888.netlify.com
 phase: Beta
 
 # Links to show on right-hand-side of header
 header_links:
-  About: https://www.larry-the-cat.service.gov.uk
-  Get Started: https://www.larry-the-cat.service.gov.uk/get-started
   Documentation: /
-  Support: https://www.larry-the-cat.service.gov.uk/support
+  Get Started: /get-started.html
+  Support: /support.html
+  About: /about.html
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: false
@@ -21,7 +21,7 @@ enable_search: false
 ga_tracking_id:
 
 # Enable multipage navigation in the sidebar
-multipage_nav: false
+multipage_nav: true
 
 # Enable collapsible navigation in the sidebar
 collapsible_nav: false
@@ -32,7 +32,7 @@ collapsible_nav: false
 max_toc_heading_level: 6
 
 # Prevent robots from indexing (e.g. whilst in development)
-prevent_indexing: false
+prevent_indexing: true
 
 show_contribution_banner: true
-github_repo: alphagov/YOUR_REPO
+github_repo: michaelmeasures/architecture-techradar-docs
